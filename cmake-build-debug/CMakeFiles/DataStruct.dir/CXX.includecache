@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Project/DataStruct/List.h
+iostream
+-
+
+F:/Project/DataStruct/main.cpp
+List.h
+F:/Project/DataStruct/List.h
+iostream
+-
+
