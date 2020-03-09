@@ -26,6 +26,7 @@ public:
 //    ~List(){
 //        clear(head);
 //    }
+
     bool InitList(int array[], unsigned int size);
 
     unsigned int Length(ListNode *head){
@@ -50,6 +51,9 @@ public:
 
     void clear();
 
+    ListNode* GetHead()const {
+        return head;
+    }
     unsigned int size(){
         if(!head){
             return 0;
